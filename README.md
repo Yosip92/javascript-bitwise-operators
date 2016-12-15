@@ -24,7 +24,7 @@ Here is its script:
 *
 * var i = 1 // 0001
 *
-* 1 « 3 -> 0001 -> 0010 -> 0100 -> 1000
+* 1 << 3 -> 0001 -> 0010 -> 0100 -> 1000
 *
 * 2. right bitwise shift (>>)
 * 32 >> 3 // 32 / 2 -> 16 / 2 -> 8 / 2 -> 4
@@ -37,7 +37,7 @@ Here is its script:
 *
 * var i = 8 // 1000
 *
-* i » 3 -> 1000 -> 0111
+* i >> 3 -> 1000 -> 0111
 *
 * 4. bitwise 'not' (~)
 *
@@ -153,3 +153,5 @@ function bitwiseAndTest() {
     print (bitwiseFormat + ' -> ' + decimalFormat);
 }
 ```
+
+Project published at: https://yosip92.github.io/javascript-bitwise-operators/
